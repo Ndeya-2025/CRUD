@@ -33,7 +33,7 @@ $role = $_SESSION['role'];
             <h2>Bienvenue, <?= htmlspecialchars($username) ?> !</h2>
             <p class="text-muted">Vous êtes connecté en tant que <strong><?= htmlspecialchars($role) ?></strong>.</p>
             <hr>
-            <p>Utilisez le menu pour gérer les produits, les stocks ou ouuuuu les utilisateurs.</p>
+            <p>Utilisez le menu pour gérer les produits, les stocks ou les utilisateurs.</p>
         </div>
     </div>
 </body>
